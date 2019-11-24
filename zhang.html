@@ -26,7 +26,7 @@
         	<li>
                 <input type=checkbox id=cs115check onclick=showCourse("cs115text","cs115check")>
                 <input type=color id=cs115color onchange=colorCourse("cs115cell","cs115color")>
-                <u>CS115B/C</u> Introduction to Computer Science
+                <u>CS115C/L</u> Introduction to Computer Science
             </li>
         	<li>
                 <input type=checkbox id=cs146check onclick=showCourse("cs146text","cs146check")>
@@ -42,6 +42,11 @@
                 <input type=checkbox id=pep111check onclick=showCourse("pep111text","pep111check")>
                 <input type=color id=pep111color onchange=colorCourse("pep111cell","pep111color")>
                 <u>PEP111C</u> Mechanics
+            </li>
+        	<li>
+                <input type=checkbox id=d110check onclick=showCourse("d110text","d110check")>
+                <input type=color id=d110color onchange=colorCourse("d110cell","d110color")>
+                <u>D110</u> Freshman Quiz
             </li>
         </ul>
         <table border=1 width=800px>
@@ -69,9 +74,9 @@
         	    </tr>
         	    <tr>
         	    	<td align=right>10:00 AM</td>
-        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115B/C</p></td>
-        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115B/C</p></td>
-        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115B/C</p></td>
+        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115C</p></td>
+        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115C</p></td>
+        	    	<td rowspan="2" class=cs115cell><p class=cs115text style="display:none">CS115C</p></td>
         	    </tr>
         	    <tr>
         	    	<td align=right>10:30 AM</td>
@@ -104,7 +109,7 @@
         	    </tr>
         	    <tr>
         	    	<td align=right>12:30 PM</td>
-        	    	<td rowspan="5" class=pep111cell><p class=pep111text style="display:none">PEP111RF</p></td>
+        	    	<td rowspan="4" class=pep111cell><p class=pep111text style="display:none">PEP111RF</p></td>
         	    	<td></td>
         	    </tr>
         	    <tr>
@@ -132,6 +137,7 @@
         	    	<td align=right>02:30 PM</td>
         	    	<td></td>
         	    	<td></td>
+        	    	<td></td>
         	    </tr>
         	    <tr>
         	    	<td align=right>03:00 PM</td>
@@ -144,9 +150,9 @@
         	    <tr>
         	    	<td align=right>03:30 PM</td>
         	    	<td></td>
-        	    	<td rowspan="2" class=cs146cell><p class=cs146text style="display:none">CS146</p></td>
+        	    	<td rowspan="2" class=cs146cell><p class=cs146text style="display:none">CS146D</p></td>
         	    	<td></td>
-        	    	<td rowspan="2" class=cs146cell><p class=cs146text style="display:none">CS146</p></td>
+        	    	<td rowspan="2" class=cs146cell><p class=cs146text style="display:none">CS146D</p></td>
         	    	<td></td>
         	    </tr>
         	    <tr>
@@ -165,17 +171,14 @@
         	    </tr>
         	    <tr>
         	    	<td align=right>05:00 PM</td>
-        	    	<td></td>
-        	    	<td></td>
-        	    	<td></td>
+        	    	<td rowspan="2" class=d110cell><p class=d110text style="display:none">D110</p></td>
+        	    	<td rowspan="2" class=d110cell><p class=d110text style="display:none">D110</p></td>
+        	    	<td rowspan="2" class=d110cell><p class=d110text style="display:none">D110</p></td>
         	    	<td></td>
         	    	<td></td>
         	    </tr>
         	    <tr>
         	    	<td align=right>05:30 PM</td>
-        	    	<td></td>
-        	    	<td></td>
-        	    	<td></td>
         	    	<td></td>
         	    	<td></td>
         	    </tr>
@@ -200,7 +203,7 @@
         	    	<td></td>
         	    	<td></td>
         	    	<td></td>
-        	    	<td rowspan="5" class=cs115cell><p class=cs115text style="display:none">CS115B/C</p></td>
+        	    	<td rowspan="4" class=cs115cell><p class=cs115text style="display:none">CS115LL</p></td>
         	    	<td></td>
         	    </tr>
         	    <tr>
@@ -219,13 +222,6 @@
         	    </tr>
         	    <tr>
         	    	<td align=right>08:30 PM</td>
-        	    	<td></td>
-        	    	<td></td>
-        	    	<td></td>
-        	    	<td></td>
-        	    </tr>
-        	    <tr>
-        	    	<td align=right>09:00 PM</td>
         	    	<td></td>
         	    	<td></td>
         	    	<td></td>
