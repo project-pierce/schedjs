@@ -1,2 +1,2 @@
 # Schedule
-This is my fall schedule with the javascript.
+CS146 Example Student Schedule with js
